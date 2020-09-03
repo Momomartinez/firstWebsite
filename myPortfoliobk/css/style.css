@@ -1,0 +1,89 @@
+body {
+  background: #fff;
+  color: #333;
+}
+
+.navbar {
+  border-top: #008ed6 3px solid;
+}
+
+.bg-dark {
+  transition: 400ms ease;
+  background: transparent !important;
+}
+
+.bg-dark.scrolled {
+  background: #008ed6 !important;
+}
+
+.navbar-brand {
+  background-color: #008ed6;
+  margin: 0;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.aboutTitle {
+  border-bottom: #008ed6 2px solid;
+}
+
+#home-section {
+  background: url(../img/workhard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  color: #fff;
+}
+
+#home-section .dark-overlay {
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#home-section .home-inner {
+  padding-top: 200px;
+}
+
+#aboutme-head-section {
+  min-height: 200px;
+}
+.pic {
+  margin-top: -20px;
+  border: 4px #fff solid;
+  height: 220px;
+  width: 220px;
+  background-position: center;
+  background-size: cover;
+}
+
+#aboutme-section .fas,
+.fab,
+.far {
+  color: #008ed6;
+  border-radius: 5px;
+}
+
+#mywork-head-section {
+  background-color: #008ed6;
+  color: #fff;
+}
+
+.hero-btn {
+  border-radius: 5px;
+}
+
+.outline {
+  color: #008ed6;
+  border-color: #008ed6;
+}
+
+.outline:hover {
+  background-color: #008ed6;
+  color: white;
+}
+
+#main-footer {
+  max-height: 300px;
+}
